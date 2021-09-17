@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Invert green channel]
+@="Invert &green channel"
+"SeparatorBefore"=""
+
+[HKEY_CLASSES_ROOT\*\shell\Invert green channel\command]
+@="D:\\image_inverter\\image_inverter.exe invert_green_channel \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell\Invert image]
+@="&Invert image"
+"SeparatorAfter"=""
+
+[HKEY_CLASSES_ROOT\*\shell\Invert image\command]
+@="D:\\image_inverter\\image_inverter.exe invert_image \"%1\""
+
